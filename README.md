@@ -4,16 +4,27 @@ Accompanying code for paper: "Learning Strategy-Aware Linear Classifiers" by Yil
 Folder cont_code/ contains the implementation for the continuous variant, and folder discr_code/ contains the implementation for the discretized variant.
 
 It is run using python 2.7. and it has the following required packages: 
+
 *** cont_code/ ***
+
 -- numpy
+
 -- cvxpy 
+
 -- polytope
+
 -- multiprocessing 
+
 -- sklearn
+
 -- logging
+
 -- os
+
 *** extra packages required for discr_code/ ***
+
 -- networkx
+
 -- sys
 
 
