@@ -1,0 +1,31 @@
+This is the README file for Paper ``Learning Strategy-Aware Linear Classifiers''. We refer the reader also to our Supplementary Material Section D, where we discuss both the polytope library and the regression oracles.
+
+Folder cont_code/ contains the implementation for the continuous variant, and folder discr_code/ contains the implementation for the discretized variant.
+
+It is run using python 2.7. and it has the following required packages: 
+*** cont_code/ ***
+-- numpy
+-- cvxpy 
+-- polytope
+-- multiprocessing 
+-- sklearn
+-- logging
+-- os
+*** extra packages required for discr_code/ ***
+-- networkx
+-- sys
+
+
+
+File that controls the distribution of points: params.py.
+
+File that controls the power of the agent (i.e., \delta): runner-dp.py
+
+In order to run the code: python runner-dp.py.
+
+Please see individual .py files for explanations regarding the functionality of each file.
+
+
+
+
+
